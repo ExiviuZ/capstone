@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+:root {
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open sans", sans-serif;
+  min-height: 100vh;
+  background-color: cornsilk;
+  padding: 1rem;
+}
+.product-list {
+  list-style-type: square;
+  margin-top: 1rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-list > li {
+  font-size: 1.3rem;
+}
+
+.product-list > li > a {
+  text-decoration: none;
+}
